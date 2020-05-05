@@ -1,10 +1,77 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tailwind Demo Resume</title>
-        <link rel="stylesheet" type="text/css" href="./styles.css">
-    </head>
-    <body>
-        <h1 class="bg-blue-300 hover:bg-blue-500">This is a test.</h1>
-    </body>
+  <head>
+    <title>Tailwind Demo Resume</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body class="bg-white">
+    <div class="container mx-auto flex flex-wrap space-y-3">
+      <div class="pt-6 pb-2 w-full order-1 border-b-2 border-gray-300">
+        <h1
+          class="w-64 text-4xl font-medium uppercase tracking-widest text-gray-800 leading-tight"
+        >
+          Frankie Newman
+        </h1>
+        <h2 class="uppercase text-gray-500 text-base">
+          Digital Media Specialist
+        </h2>
+      </div>
+      <div
+        class="md:pr-5 w-full md:w-3/12 order-3 md:order-2 space-y-3 border-t-2 md:border-t-0 md:border-r-2 border-gray-300 divide-gray-300 divide-y-2 md:divide-y-0"
+      >
+        <div>
+          <h3>Profile</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div>
+          <h3>Interests</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+      <div
+        class="md:pl-5 w-full md:w-auto flex-grow order-2 md:order-3 space-y-8 divide-gray-300 divide-y-2"
+      >
+        <div class="w-full">
+          <h3>Contact</h3>
+          <div class="w-full md:text-center text-gray-700 font-bold">3 Avenue Bernard Hirsch, 95000 Cergy</div>
+          <div class="flex flex-wrap md:divide-x-2 md:divide-gray-300 text-gray-700">
+            
+            <div class="w-full md:w-1/3 md:text-center"><a href="tel:0033134433000">+33(0)1 34 43 30 00</a></div>
+            <div class="w-full md:w-1/3 md:text-center">
+              <a href="mailto:contact@esssec.edu">contact@esssec.edu</a>
+            </div>
+            <div class="w-full md:w-1/3 md:text-center"><a href="https://www.essec.edu">www.essec.edu</a></div>
+          </div>
+        </div>
+        <div>
+          <h3>Social</h3>
+          <p>social info</p>
+        </div>
+        <div>
+          <h3>Education</h3>
+          <p>blabla</p>
+        </div>
+        <div>
+          <h3>Experience</h3>
+          <p>blabla</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
